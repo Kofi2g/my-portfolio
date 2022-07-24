@@ -1,6 +1,8 @@
 .workExperienceContainer {
     display: flex;
     flex-direction: row-reverse;
+    width: 80vw;
+    border: 2px purple solid;
 }
 
 .contentInformation {
@@ -8,16 +10,33 @@
     flex-direction: column;
     align-self: center;
     width: 100%;
+    font-size: 1.2rem;
 }
 
 .contentInformation p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+
 }
 
-.temp {
+.workExperienceContent {
   
    display: flex;
    flex-direction: column;
-   width: 28%;
+   font-size: 1.2rem;
+}
 
+.jobInformation {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) { 
+    .workExperienceContainer {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 850px) { 
+    .workExperienceContainer {
+        flex-direction: column-reverse;
+    }
 }

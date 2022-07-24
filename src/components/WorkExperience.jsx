@@ -3,14 +3,18 @@ import styles from "../css/WorkExperience.module.css";
 const WorkExperience = () => {
   return (
     <div className={styles.workExperienceContainer}>
-      <div className={styles.temp}>
-        <p>Malorees Infant School</p>
-        <p>IT Assistant</p>
-        <p>Hardware and Networking</p>
+      <div className={styles.workExperienceContent}>
+        <p>
+          <strong>Malorees Infant School</strong>
+        </p>
+        <ul className={styles.jobInformation}>
+          <li>IT Assistant</li>
+          <li>Hardware and Networking</li>
+        </ul>
       </div>
 
       <div className={styles.contentInformation}>
-        <h2>Work Experience</h2>
+        <h2 id="workExperience">Work Experience</h2>
         <p>2022</p>
       </div>
     </div>

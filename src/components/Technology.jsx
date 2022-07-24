@@ -7,12 +7,12 @@ import styles from "../css/Technology.module.css";
 const Technology = () => {
   return (
     <div className={styles.technologyContainer}>
-        <img src={react} alt="react logo" width={130} />
-        <img src={javascript} alt="javascript logo" width={140} />
-        <img src={css} alt="css logo" width={160} />
-        <img src={html5} alt="html5 logo" width={130} />
+        <img className={styles.logo} src={react} alt="react logo" width={130} />
+        <img className={styles.logo} src={javascript} alt="javascript logo" width={140} />
+        <img className={styles.logo} src={css} alt="css logo" width={160} />
+        <img className={styles.logo} src={html5} alt="html5 logo" width={130} />
     <div className={styles.contentInformation}>
-    <h2>Technology</h2>
+    <h2 id="technology">Technology</h2>
       <p>HTML</p>
       <p>CSS</p>
       <p>Javascript</p>

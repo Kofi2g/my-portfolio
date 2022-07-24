@@ -1,27 +1,64 @@
 .introductionContainer {
+    border: red 2px solid;
     display: flex;
-    height: 80vh;
+    height: 70vh;
     flex-direction: row;
-    margin: 5rem 14rem 0 14rem;
+    margin: 5rem 15vw 0;
     gap: 5rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .introductionContainer p {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 3rem;
+    align-items: baseline;
+    line-height: 1.6;
 }
 
 .img {
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover;
 	object-position: 100%;
     border-radius: 100%;
 }
 
 .span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: rgb(0, 0, 0);
     font-weight: 700;
+    
 }
+
+.link {
+    text-decoration: underline black 3px;
+    
+}
+
+@media screen and (max-width: 850px) {
+    .introductionContainer {
+        border: rgb(81, 0, 255) 2px solid;
+        margin: 5rem 2vw 0;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .introductionContainer {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 5rem 5vw 0; 
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .introductionContainer {
+        margin: 5rem 1vw 0;
+        height: auto;
+    }
+ }

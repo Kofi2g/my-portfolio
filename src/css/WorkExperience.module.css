@@ -1,0 +1,23 @@
+.workExperienceContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contentInformation {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+.contentInformation p {
+    font-size: 1.5rem;
+}
+
+.temp {
+  
+   display: flex;
+   flex-direction: column;
+   width: 28%;
+
+}

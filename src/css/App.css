@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+.InformationContainer {
+  display: flex; 
+  flex-direction: column;
+  gap: 10rem;
+  margin: 5rem 14rem 0 14rem;
+
+}

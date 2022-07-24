@@ -1,0 +1,27 @@
+.introductionContainer {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    margin: 5rem 14rem 0 14rem;
+    gap: 5rem;
+}
+
+.introductionContainer p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.img {
+    width: 17rem;
+    height: 17rem;
+    object-fit: cover;
+	object-position: 100%;
+    border-radius: 100%;
+}
+
+.span {
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}

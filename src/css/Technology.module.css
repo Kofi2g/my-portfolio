@@ -1,0 +1,10 @@
+.technologyContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contentInformation {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}

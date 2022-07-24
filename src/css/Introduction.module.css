@@ -1,10 +1,15 @@
-.introductionContainer {
-    border: red 2px solid;
+.introductionFlexContainer {
     display: flex;
-    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.introductionContainer {
+    display: flex;
+    height: 90vh;
+    width: 70vw;
     flex-direction: row;
-    margin: 5rem 15vw 0;
-    gap: 5rem;
+    gap: 4rem;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -19,8 +24,8 @@
 }
 
 .img {
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
     object-fit: cover;
 	object-position: 100%;
     border-radius: 100%;
@@ -38,27 +43,31 @@
     
 }
 
+@media screen and (max-width: 1024px) {
+    .introductionContainer {
+        gap: 3rem;
+        width: 90vw;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .introductionContainer {
-        border: rgb(81, 0, 255) 2px solid;
-        margin: 5rem 2vw 0;
-        gap: 2rem;
+        flex-wrap: wrap;
+        height: auto;
+        width: 80vw;
+        gap: 0;
+        margin: 3rem 0 6rem;
     }
 }
 
 @media screen and (max-width: 570px) {
     .introductionContainer {
         display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        margin: 5rem 5vw 0; 
-        gap: 0;
     }
 }
 
 @media screen and (max-width: 395px) {
     .introductionContainer {
-        margin: 5rem 1vw 0;
         height: auto;
     }
  }

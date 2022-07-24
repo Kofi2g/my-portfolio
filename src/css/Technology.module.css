@@ -1,8 +1,7 @@
 .technologyContainer {
     display: flex;
     flex-direction: row-reverse;
-    border: 2px red solid;
-    width: 80vw;
+    width: 70vw;
 }
 .contentInformation {
     display: flex;
@@ -30,7 +29,6 @@
     .contentInformation {
         align-items: flex-start;  
         flex-wrap: wrap;
-        border: 2px green solid;
     }
 }
 

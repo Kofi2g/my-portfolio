@@ -1,8 +1,7 @@
 .workExperienceContainer {
     display: flex;
     flex-direction: row-reverse;
-    width: 80vw;
-    border: 2px purple solid;
+    width: 70vw;
 }
 
 .contentInformation {

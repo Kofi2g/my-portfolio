@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: clamp(1rem, 0.7368rem + 1.4035vw, 1.2rem);
 }
 
 body {
@@ -14,14 +15,13 @@ body {
 
 h2 {
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: clamp(1rem, 1.0974rem + 0.2807vw, 2rem);
 }
 
 .InformationContainer {
   display: flex; 
   flex-direction: column;
   gap: 10rem;
-  border: 2px rgb(48, 4, 221) solid;
   justify-content: center;
   align-items: center;
   

@@ -3,6 +3,7 @@ import styles from "../css/Introduction.module.css";
 
 const Introduction = () => {
   return (
+    <div className={styles.introductionFlexContainer}>
     <div className={styles.introductionContainer}>
       <img src={profilepicture} alt="Author" className={styles.img} />
       <p>
@@ -22,6 +23,7 @@ const Introduction = () => {
         and a little bit about me.{" "}
         Scroll down and have a look.
       </p>
+      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@
 .technologyContainer {
     display: flex;
     flex-direction: row-reverse;
-    width: 70vw;
+    width: 73vw;
     background-color: var(--tertiary);
     padding: 1rem;
 }

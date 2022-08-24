@@ -21,7 +21,6 @@ width: 50%;
     width: 70vw;
     background-color: var(--tertiary);
     padding: 1rem;
-    
 }
 
 .contentInformation {
@@ -43,9 +42,7 @@ width: 50%;
     .projectsContainer {
         justify-content: center;
         align-items: center;
-    
     }
-
 }
 
 @media screen and (max-width: 570px) { 

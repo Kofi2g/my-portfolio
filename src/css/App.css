@@ -2,6 +2,8 @@
 ::before,
 ::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -9,13 +11,34 @@ html {
   font-size: clamp(1rem, 0.7368rem + 1.4035vw, 1.2rem);
 }
 
+:root {
+  --primary: #9ec096;
+    --secondary: #292929;
+    --tertiary: #494D48;
+    --white: #ffffff;
+}
+
+span {
+  font-size: 1.4rem;
+  color: var(--primary);
+  font-weight: 700;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: var(--secondary);
+  color: var(--white);
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: var(--white);
   font-size: clamp(1rem, 1.0974rem + 0.2807vw, 2rem);
+}
+
+.headerLink {
+  color: rgb(0, 238, 79);
+    font-size: 1.25rem;
+    text-decoration: none;
 }
 
 .InformationContainer {
@@ -24,6 +47,4 @@ h2 {
   gap: 10rem;
   justify-content: center;
   align-items: center;
-  
-
 }

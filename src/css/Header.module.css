@@ -1,3 +1,10 @@
+:root {
+    --primary: #9ec096;
+      --secondary: #292929;
+      --tertiary: #494D48;
+      --white: #ffffff;
+  }
+  
 ul {
     display: flex;
     justify-content: flex-end;
@@ -6,15 +13,20 @@ ul {
     margin-right: 3rem;
 }
 
-.link {
-    color: rgb(0, 0, 0);
+a {
+    color: var(--primary);
     font-size: 1.25rem;
     text-decoration: none;
 }
 
 .header {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
-    padding: .5rem;
+    padding: .5rem ;
+    height: 12vh;
+    background-color: var(--tertiary);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 @media screen and (max-width: 570px) { 

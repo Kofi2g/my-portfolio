@@ -1,7 +1,16 @@
+:root {
+    --primary: #9ec096;
+    --secondary: #292929;
+    --tertiary: #494D48;
+    --white: #ffffff;
+      }
+
 .workExperienceContainer {
     display: flex;
     flex-direction: row-reverse;
     width: 70vw;
+    background-color: var(--tertiary);
+    padding: 1rem;
 }
 
 .contentInformation {
@@ -10,11 +19,13 @@
     align-self: center;
     width: 100%;
     font-size: 1.2rem;
+    gap: 1rem;
 }
 
 .contentInformation p {
     font-size: 2rem;
 
+    gap: 1rem;
 }
 
 .workExperienceContent {
@@ -26,6 +37,7 @@
 
 .jobInformation {
     flex-direction: column;
+    gap: 2rem;
 }
 
 @media screen and (max-width: 1024px) { 

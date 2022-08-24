@@ -1,7 +1,14 @@
+:root {
+    --primary: #9ec096;
+      --secondary: #292929;
+      --tertiary: #494D48;
+      --white: #ffffff;
+  }
+
 .introductionFlexContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
 .introductionContainer {
@@ -21,6 +28,8 @@
     margin-top: 3rem;
     align-items: baseline;
     line-height: 1.6;
+    background-color: var(--tertiary);
+    padding: 1rem;
 }
 
 .img {
@@ -31,16 +40,9 @@
     border-radius: 100%;
 }
 
-.span {
-    font-size: 1.4rem;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    
-}
 
 .link {
-    text-decoration: underline black 3px;
-    
+    text-decoration: underline var(--primary) 3px;
 }
 
 @media screen and (max-width: 1024px) {

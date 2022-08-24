@@ -6,8 +6,9 @@ import Technology from "./Technology";
 import WorkExperience from "./WorkExperience";
 
 function App() {
+  
   return (
-    <div className="App">
+    <div>
       <Header />
         <Introduction />
       <div className="InformationContainer">
